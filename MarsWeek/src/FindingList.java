@@ -16,9 +16,9 @@ public class FindingList {
         rock.add("not rock");
 
         Thread.sleep(500);
-        System.out.println("Welcome Back :)");
+        System.out.println("\nWelcome Back :)");
         Thread.sleep(1000);
-        System.out.println("Downloading....");
+        System.out.println("Downloading Rock Samples....");
         Thread.sleep(1500);
 
         System.out.println("Download complete!"

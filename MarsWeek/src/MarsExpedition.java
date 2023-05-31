@@ -53,7 +53,7 @@ public class MarsExpedition {
             System.out.println("That's way to many people. We can only send 2 more members");
             team = 2;
         } else if (team < 2) {
-            System.out.println("We need 2 members.");
+            System.out.println("We need 2 members. We added some to your team.");
             team = 2;
         } else if (team == 2) {
             System.out.println("That's a perfect sized team. Good job.");
@@ -64,10 +64,10 @@ public class MarsExpedition {
 
     public static String snackChoice() {
         Scanner scan = new Scanner(System.in);
-        System.out.println("You are allowed to bring one snack with you. What do you want to bring?");
+        System.out.println("\nYou are allowed to bring one snack with you. What do you want to bring?");
         String snack = scan.nextLine();
 
-        System.out.println("Nice choice, you will be bringing a " + snack + " with you.");
+        System.out.println("\nNice choice, you will be bringing a " + snack + " with you.");
 
         return snack;
     }
