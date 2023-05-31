@@ -1,5 +1,8 @@
+import java.util.Scanner;
+
 public class Mars {
     public static void main(String[] args) throws InterruptedException {
+        Scanner scan = new Scanner(System.in);
         String colonyName = "SpaceX City";
         int shipPopulation = 300;
         double meals = 4000.00;
@@ -27,7 +30,13 @@ public class Mars {
 
         landing = landingCheck(5);
 
+
         new GuessingGame();
+
+        new MarsExpedition();
+
+        new FindingList();
+        scan.close();
     }
 
 

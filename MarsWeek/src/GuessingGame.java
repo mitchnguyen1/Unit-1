@@ -45,7 +45,6 @@ public class GuessingGame {
 
         }
         System.out.println("You guessed it in " + tries + " tries");
-        scan.close();
     }
 
 }
